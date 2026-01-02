@@ -65,7 +65,7 @@ const Hero = () => {
                             </span>
                         </button>
                     </Link>
-                    <a href="" download>
+                    <a href="/Priyanka_MERN_Stack_Developer_2026.pdf" download>
                         <button className='text-gray-900 dark:text-white border border-gray-300 dark:border-gray-600 bg-black/5 dark:bg-white/5 backdrop-blur-sm px-8 py-4 flex items-center gap-3 rounded-full font-bold hover:bg-black/10 dark:hover:bg-white/10 hover:border-gray-400 dark:hover:border-white hover:scale-105 transition-all duration-300'>
                             Download Resume
                             <FaDownload className="text-sm" />

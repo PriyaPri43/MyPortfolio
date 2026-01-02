@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { portfolioData } from '../data/portfolioData';
 import { FaArrowRight, FaDownload } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -56,14 +57,14 @@ const Hero = () => {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-6 mt-8">
-                    <a href="/projects">
+                    <Link to="/projects">
                         <button className='text-primary bg-accent px-8 py-4 flex items-center gap-3 rounded-full font-bold hover:bg-[#0891b2] hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(6,182,212,0.5)]'>
                             View Projects
                             <span className='animate-bounce-right'>
                                 <FaArrowRight />
                             </span>
                         </button>
-                    </a>
+                    </Link>
                     <a href="./Priyanka_MERN_Developer_2026.pdf" download>
                         <button className='text-gray-900 dark:text-white border border-gray-300 dark:border-gray-600 bg-black/5 dark:bg-white/5 backdrop-blur-sm px-8 py-4 flex items-center gap-3 rounded-full font-bold hover:bg-black/10 dark:hover:bg-white/10 hover:border-gray-400 dark:hover:border-white hover:scale-105 transition-all duration-300'>
                             Download Resume

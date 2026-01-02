@@ -67,7 +67,7 @@ export const portfolioData = {
         {
             title: "E-Commerce Dashboard",
             description: "Admin dashboard for managing products, orders, and users with real-time data visualization.",
-            techStack: ["React", "Material UI", "Chart.js"],
+            techStack: ["React", "Material UI"],
             github: "https://github.com/PriyaPri43", // Placeholder
             demo: "#"
         },

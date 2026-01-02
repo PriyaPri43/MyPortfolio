@@ -29,7 +29,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="w-full min-h-screen bg-primary flex justify-center items-center py-20 px-4 relative overflow-hidden">
+        <div className="w-full min-h-screen bg-white dark:bg-primary flex justify-center items-center py-20 px-4 relative overflow-hidden text-gray-900 dark:text-gray-100">
 
             {/* Background Blobs */}
             <div className="absolute top-10 left-10 w-72 h-72 bg-accent opacity-20 rounded-full blur-[100px] animate-pulse"></div>

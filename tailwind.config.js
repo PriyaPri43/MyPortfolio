@@ -4,11 +4,13 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
         primary: "#0a0a0a",
         accent: "#04e6e2ff", // Cyan-500
+        accentLight: "#0891b2", // darker cyan for light theme
       },
       fontFamily: {
         sans: ['Outfit', 'sans-serif'],

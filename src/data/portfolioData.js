@@ -75,8 +75,8 @@ export const portfolioData = {
             title: "Portfolio Website",
             description: "Personal portfolio website with dark theme and smooth animations.",
             techStack: ["React", "Tailwind CSS", "Framer Motion"],
-            github: "https://myportfolio-beta-ruby-58.vercel.app/",
-            demo: "#"
+            github: "https://github.com/PriyaPri43/MyPortfolio",
+            demo: "https://myportfolio-beta-ruby-58.vercel.app/"
         }
     ]
 };
